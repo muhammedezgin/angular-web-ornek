@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "predator helios",
+      "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+    },
+    {
+      "id": 2,
+      "name": "mouse",
+      "price": 25,
+      "categoryId": 2,
+      "description": "everest",
+      "imageUrl": "https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/l/2/l20m01.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Keyboard",
+      "price": 30,
+      "categoryId": 2,
+      "description": "everest",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQ052?wid=4000&hei=1800&fmt=jpeg&qlt=95&.v=1495129815011"
+    },
+    {
+      "id": 4,
+      "name": "Flash Disc",
+      "price": 40,
+      "categoryId": 2,
+      "description": "everest",
+      "imageUrl": "https://productimages.hepsiburada.net/s/1/375/9530144587826.jpg"
+    },
+    {
+      "id": 5,
+      "name": "watch",
+      "price": 50,
+      "categoryId": 2,
+      "description": "everest",
+      "imageUrl": "https://productimages.hepsiburada.net/s/43/375/10769549230130.jpg"
+    },
+    {
+      "name": "telefon",
+      "description": "iphone 6",
+      "price": "4000",
+      "categoryId": "2",
+      "imageUrl": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP705/SP705-iphone_6-mul.png",
+      "id": 6
+    },
+    {
+      "name": "buzdolabı",
+      "description": "no-frost",
+      "imageUrl": "https://cdn.dsmcdn.com/mnresize/500/-/ty27/product/media/images/20201201/14/34086228/80645832/1/1_org.jpg",
+      "price": "15000",
+      "categoryId": "2",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    }
+  ]
+}

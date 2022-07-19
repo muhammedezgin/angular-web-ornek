@@ -1,0 +1,66 @@
+<body class="text-center">
+<main class="form-signin w-100 m-auto">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)"class="form-signin">
+      <div class="tesxt-center mb-4">
+        <h1 class="h3 mb-3 fw-normal">Login</h1>
+      </div>
+
+
+      <div class="form-floating">
+        <input type="text"  #userName="ngModel" [(ngModel)]="model.userName" class="form-control" id="userName" name="userName" placeholder="Kullanıcı adı" required autofocus>
+        <label for="inputEmail">Kullanıcı adı</label>
+      </div>
+      <div class="form-floating"> 
+        <input type="password" #password="ngModel" [(ngModel)]="model.password" class="form-control" name="password" id="password" placeholder="şifre" required>
+        <label for="inputPassword">Şifre</label>
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Giriş</button>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2018</p>
+    </form>
+
+</main>
+</body>
+
+<!-- <form #productAddForm="ngForm" (ngSubmit)="add(productAddForm)">
+
+  <div class="form-group">
+    <input type="text" placeholder="Ürün adı" #name="ngModel" [(ngModel)]="model.name" class="form-control" name="name"
+      id="name" required>
+
+    <div *ngIf="name.invalid&&name.dirty" class="alert alert-danger">Ürün ismi gereklidir</div>
+  </div>
+  <div class="form-group">
+    <input type="text" placeholder="Açıklama" #description="ngModel" [(ngModel)]="model.description"
+      class="form-control" name="description" id="description" required>
+
+    <div *ngIf="description.invalid&&description.dirty" class="alert alert-danger">Açıklama gereklidir</div>
+  </div>
+  <div class="form-group">
+    <input type="text" placeholder="Ürün resmi" #imageUrl="ngModel" [(ngModel)]="model.imageUrl" class="form-control"
+      name="imageUrl" id="imageUrl" required>
+
+    <div *ngIf="imageUrl.invalid&&imageUrl.dirty" class="alert alert-danger">Fotoğraf zorunludur</div>
+  </div>
+  <div class="form-group">
+    <input type="text" placeholder="Ürün fiyatı" #price="ngModel" [(ngModel)]="model.price" class="form-control"
+      name="price" id="price" required>
+
+    <div *ngIf="price.invalid&&price.dirty" class="alert alert-danger">fiyat girmek zorunludur</div>
+  </div>
+  <div class="form-group">
+    <select class="form-control" #categoryId="ngModel" [(ngModel)]="model.categoryId" id="categoryId" name="categoryId"
+      required>
+      <option *ngFor="let category of categories" [value]="category.id">{{category.name}}
+
+      </option>
+
+    </select>
+    <div *ngIf="categoryId.invalid&&categoryId.touched" class="alert alert-danger"> Kategori gereklidir</div>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary" [disabled]="productAddForm.invalid">Ürün ekle</button>
+
+
+</form> -->
